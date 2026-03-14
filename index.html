@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Impostazioni base per la pagina: caratteri, viewport per il responsive -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack House — Il tuo angolo di gusto</title>
+  <!-- Collega il foglio di stile esterno -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== 1. HERO SECTION ========== -->
+  <!-- La prima cosa che vede l'utente: titolo, sottotitolo e call-to-action -->
+  <section class="hero" id="hero">
+    <h1 class="hero__title">Snack House</h1>
+    <p class="hero__subtitle">Il tuo angolo di gusto. Panini, bevande e dolci preparati con cura.</p>
+    <a href="#menu" class="hero__btn" id="btn-menu">Scopri il menu</a>
+  </section>
+
+  <!-- ========== 2. CHI SIAMO ========== -->
+  <section class="chi-siamo" id="chi-siamo">
+    <div class="container">
+      <h2 class="section-title">Chi siamo</h2>
+      <p class="chi-siamo__text">
+        Snack House è un locale accogliente nel cuore della città. Da anni offriamo panini freschi,
+        bevande e dolci fatti in casa in un'atmosfera rilassata. Siamo il posto giusto per una
+        pausa veloce o per restare in compagnia.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== 3. MENU (3 CARD) ========== -->
+  <!-- Tre card: Panini, Bevande, Dolci -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <h2 class="section-title">Menu</h2>
+      <div class="menu__grid">
+        <!-- Card Panini -->
+        <article class="card">
+          <div class="card__icon">🥪</div>
+          <h3 class="card__title">Panini</h3>
+          <p class="card__text">Panini caldi e freddi con ingredienti freschi. Classici e specialità della casa.</p>
+        </article>
+        <!-- Card Bevande -->
+        <article class="card">
+          <div class="card__icon">🥤</div>
+          <h3 class="card__title">Bevande</h3>
+          <p class="card__text">Caffè, bibite, succhi e frullati. Sempre freschi e gustosi.</p>
+        </article>
+        <!-- Card Dolci -->
+        <article class="card">
+          <div class="card__icon">🍰</div>
+          <h3 class="card__title">Dolci</h3>
+          <p class="card__text">Dolci fatti in casa, cornetti e torte. Il dolce che fa per te.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 4. PERCHÉ SCEGLIERCI ========== -->
+  <section class="perche-sceglierci" id="perche">
+    <div class="container">
+      <h2 class="section-title">Perché sceglierci</h2>
+      <ul class="perche-sceglierci__list">
+        <li>Ingredienti freschi e di qualità</li>
+        <li>Preparazione al momento</li>
+        <li>Ambiente accogliente e pulito</li>
+        <li>Prezzi giusti e porzioni generose</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========== 5. CONTATTI ========== -->
+  <!-- Indirizzo, telefono, email e bottone WhatsApp -->
+  <section class="contatti" id="contatti">
+    <div class="container">
+      <h2 class="section-title">Contatti</h2>
+      <div class="contatti__info">
+        <p><strong>Indirizzo:</strong> Via Roma 123, 00100 Roma</p>
+        <p><strong>Telefono:</strong> <a href="tel:+390612345678">+39 06 12345678</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@snackhouse.it">info@snackhouse.it</a></p>
+      </div>
+      <a href="https://wa.me/390612345678" class="btn-whatsapp" target="_blank" rel="noopener">Scrivici su WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ========== 6. FOOTER ========== -->
+  <footer class="footer">
+    <p>© Snack House — Sito di prova per Cursor, GitHub e Vercel</p>
+  </footer>
+
+  <!-- Script JavaScript: va alla fine del body per non bloccare il caricamento della pagina -->
+  <script src="script.js"></script>
+</body>
+</html>
